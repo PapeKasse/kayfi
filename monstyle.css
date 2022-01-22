@@ -1,0 +1,53 @@
+/*   Responssive pour aggrandir ma bare de recherche*/
+@media screen and (max-width:600px){
+  .rch{
+      min-width: 216% !important;
+  }
+}
+
+@media screen and (min-width:601px)  and (max-width:990px){
+    .rch{
+        min-width: 207% !important;
+    }
+}
+
+/*   FIN Responssive pour aggrandir ma bare de recherche */
+
+/*   Responssive pour le bouton connexion et inscription */
+@media only screen and (max-width: 598px) {
+    .log{
+      display: block;
+    }
+  }
+
+  @media only screen and (min-width: 599px) {
+    .log{
+      display: none;
+    }
+  }
+  /*   FIN   Responssive pour le bouton connexion et inscription*/
+
+  /*   FIN   Responssive pour les remises (20%)*/
+  @media only screen and (max-width: 495px) {
+    .red2{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 349px) {
+    .red1{
+      display: none;
+    }
+  }
+
+/*   FIN   Responssive pour les remises (20%)*/
+
+.text_cat{
+  width:100% !important;
+  color:white !important;
+  margin:5px !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  word-spacing: 3px !important;
+}
+
