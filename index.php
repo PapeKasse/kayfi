@@ -316,7 +316,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+      </div>
 </div>
 
         <div style="background-color:#24ecec;min-height:60px;text-align:center;margin-top:-20px;box-shadow: 5px 5px 5px 5px black;" class="container-fluid">
@@ -390,220 +390,173 @@
                         <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
                     </div>
                </div>
-        </div>
+       </div>
 
 </br>
 
-            <div style="border:1px solid;box-shadow:5px 5px 5px 5px black;max-height:400px;background-color:orange;" class="container-fluid">      
-                <p class="text_cat btn rounded mx-auto d-block"><em>Profitez Des Prix<span> Exceptionnels !</span></em></p> 
-                <img style="margin-top:23px;" src="img/categories/cat17.jpg" class="img-fluid rounded mx-auto d-block" alt="Veillez-Patienter">
-                <h2 style="width: 200px;color:white;margin-bottom:20px;" class="btn border rounded mx-auto d-block">Nos Produits Managers</h2> 
-            </div>
-            
+        <div class="container-fluid cat_bg"> 
+        <p style="text-align:center;padding-top:20px;font-size:20px;font-weight:bold;color:#fff;">L'ELECTROMENAGERS C'EST INDISPENSABLE ! </p>
+            <div style="text-align:center;padding-top:27px;" class="row">
+                <div class="col-lg-6 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
+                  <img style="width:90%;box-shadow:0 0 5px 5px white;" src="img/categories/cat17.jpg"  alt="Veillez-Patienter"> 
+                </div>
+                <div class="cat18_resp col-lg-6 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
+                  <img style="width:90%;box-shadow:0 0 5px 5px #fff;" src="img/categories/cat18.jpg" alt="Veillez-Patienter"> 
+                </div>
+          </div>
+          <div style="text-align:center;margin-top:15px;">
+          <h5 style="text-align:center;font-size:20px;font-weight:bold;color:#fff;" class="btn border">TOUS NOS PRODUITS ! </h5>
+          </div>
+        </div>      
 </br>
 
-<div class="container-fluid d-flex justify-content-center mt-50 mb-50">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item cat-item">
-            <i class="bi bi-heart-fill"></i>
-            <img src="images/produits/p1.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">HP Pavilion Gaming 10th Gen Intel Core i5 Processor</h5>
-              <h4 class="card-text text-danger prix"> Prix: 48,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier ">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
+
+
+  <!-- Products Start -->
+  <div class="container-fluid">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Produits Electroménagers</span></h2>
         </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p3.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 56,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat1.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p8.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Lenovo 300 Wireless Compact Mouse last version</h5>
-              <h4 class="card-text text-danger prix">Prix: 68.000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
+            <div class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat5.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p2.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 56,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
+            <div class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat9.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p6.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">XPG S40G 512GB RGB 3D NAND PCIe Gen3x4 NVMe</h5>
-              <h4 class="card-text text-danger prix">Prix: 19.000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
+            <div class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat6.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p4.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 56,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
+            <div class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat10.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p7.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 18,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
+            <div class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat11.jpeg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p1.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 80,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
+            <div class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat4.jpg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p6.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 50,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
+            <div class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat12.jpeg" alt="">
+                    </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between bg-light border">
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
+                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p8.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 36,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p7.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 73,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p4.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 90,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p5.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 10,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p3.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 100,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p6.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 65,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p4.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 200,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p1.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 55,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-          <div class="card cat-item">
-            <i class="bi bi-heart"></i>
-            <img src="images/produits/p7.jpg" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title description">Kingston 250GB A2000 M.2 2280 Nvme Internal SSD</h5>
-              <h4 class="card-text text-danger prix">Prix: 210,000 FCFA</h4>
-              <button type="button" class="btn btn-outline-primary panier">Ajouter Au Panier <i class="fas fa-shopping-cart"></i></button>
-            </div>
-          </div>
-        </div>
-   </div>
-</div>
+    </div>
+    <!-- Products End -->
 
    <!-- Vendor Start -->
    <div class="container-fluid py-5">

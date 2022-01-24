@@ -51,3 +51,14 @@
   word-spacing: 3px !important;
 }
 
+.cat_bg{
+  background-color: orange;
+  height: 430px;
+  box-shadow: 5px 5px 5px 5px black;
+}
+
+@media only screen and (max-width: 768px) {
+  .cat18_resp{
+    display: none;
+  }
+}
