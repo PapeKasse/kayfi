@@ -75,7 +75,7 @@
 
                             <div class="form-group">
                             <label for="password">Password</label>
-                            <input required id="password"  type="password" class="form-control" name="motDePasse" id="motDePasse" placeholder="Password" id="exampleInputPassword1">
+                            <input required id="password"  type="password" class="form-control" name="mdp" id="motDePasse" placeholder="Password" id="exampleInputPassword1">
                             </div>
                                 <button type="submit" class="btn btn-primary submitButton">Se connecter</button>
                         </form>

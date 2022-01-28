@@ -210,14 +210,14 @@
                           <span>Sardins</span>
                         </a>
                       </li>
-                      <li class="<?php if(stristr($tableau_chemin[0], "litteries") !== false) echo "active" ?>">
+                      <li class="<?php if(stristr($tableau_chemin[0], "litterie") !== false) echo "active" ?>">
                         <a href="litteries_liste">
                           <i class="material-icons">play_arrow</i>
                           <span>Litteries</span>
                         </a>
                       </li>
-                      <li class="<?php if(stristr($tableau_chemin[0], "tapies") !== false) echo "active" ?>">
-                        <a href="tapies_liste">
+                      <li class="<?php if(stristr($tableau_chemin[0], "tapie") !== false) echo "active" ?>">
+                        <a href="tapie_liste">
                           <i class="material-icons">play_arrow</i>
                           <span>Tapies</span>
                         </a>
@@ -279,13 +279,18 @@
         <section id="content">
           <?php
             $tab["menu"]["Administrateur"] = 1;
-            $tab["menu"]["Salarie"] = 1;
+            $tab["menu"]["Utilisateur"] = 1;
             $tab["menu"]["Profile"] = 1;
 
             $tab["menu"]["routinejournalier"]["liste"] = 1;
             $tab["menu"]["routinejournalier"]["ajouter"] = 1;
             $tab["menu"]["routinejournalier"]["modifier"] = 1;
             $tab["menu"]["routinejournalier"]["supprimer"] = 1;
+
+            $tab["menu"]["tapie"]["liste"] = 1;
+            $tab["menu"]["tapie"]["ajouter"] = 1;
+            $tab["menu"]["tapie"]["modifier"] = 1;
+            $tab["menu"]["tapie"]["supprimer"] = 1;
 
             $URL = $_SERVER['REQUEST_URI'];
 

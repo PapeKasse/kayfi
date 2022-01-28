@@ -6,7 +6,7 @@
             $conn = NULL;
             try{
                 /*On essaie d'etablir la connexion*/
-                $conn = new PDO("mysql:host=localhost;dbname=dbxpoultrade", "root", "");
+                $conn = new PDO("mysql:host=localhost;dbname=dbxkayfi", "root", "");
                 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                 } catch(PDOException $e){
                     /*Si elle echoue, on recupere l'erreur et on l'affiche*/

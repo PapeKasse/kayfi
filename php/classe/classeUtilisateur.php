@@ -1,18 +1,16 @@
 <?php
 	require_once('classeConnexion.php'); 
-	// CLASSE SALARIE 
-	/** Attributs de la classe "Salarie" **/
-	class Salarie {
-		private $idSalarie;
-		private $nom;
-		private $prenom;
+	// CLASSE UTILISATEUR 
+	/** Attributs de la classe "Utilisateur" **/
+	class Utilisateur {
+		private $idUtilisateur;
+		private $nomComplet;
 		private $adresse; 
+		private $tel;
 		private $email;
-		private $telephone;
-		private $idRolesalarie;
 		private $login;
-		private $motDePasse;
-		private $idDepartement;
+		private $mdp;
+		private $statut;
 
 		/** Constructeur ... **/
 		public function __construct(){
@@ -20,59 +18,57 @@
 			$nb= func_num_args();
 			// S'il n'y a pas de paramètre, on initialise les variables à une valeur nulle
 			if ($nb == 0) {
-				$this->idSalarie= "";
-				$this->nom= "";
-				$this->prenom= "";
+				$this->idUtilisateur= "";
+				$this->nomComplet= "";
 				$this->adresse= "";
+				$this->tel= "";
 				$this->email= "";
-				$this->telephone= "";
-				$this->idRolesalarie= "";
 				$this->login= "";
-				$this->motDePasse= "";
-				$this->idDepartement= "";
+				$this->mdp= "";		
+				$this->statut= "";
 			}
 			/*Sinon s'il y a des paramètres on donne aux variables les valeurs des paramètres
 	La fonction func_get_arg() recupère la valeur de l'argument à la position qui lui est donnée en paramètre*/
 			if ($nb != 0) {
-				$this->idSalarie= func_get_arg(0);
-				$this->nom= func_get_arg(1);
-				$this->prenom= func_get_arg(2);
-				$this->adresse= func_get_arg(3);
+				$this->idUtilisateur= func_get_arg(0);
+				$this->nomComplet= func_get_arg(1);
+				$this->adresse= func_get_arg(2);
+				$this->tel= func_get_arg(3);
 				$this->email= func_get_arg(4);
-				$this->telephone= func_get_arg(5);
-				$this->idRolesalarie= func_get_arg(6);
-				$this->login= func_get_arg(7);
-				$this->motDePasse= func_get_arg(8);
-				$this->idDepartement= func_get_arg(9);
+				$this->login= func_get_arg(5);
+				$this->mdp= func_get_arg(6);
+				$this->statut= func_get_arg(7);
 			}
 		}
-		/** Getter et Setter de l'attribut "idSalarie" **/
-		public function getIdSalarie(){
-			return $this->idSalarie;
+		/** Getter et Setter de l'attribut "idUtilisateur" **/
+		public function getIdUtilisateur(){
+			return $this->idUtilisateur;
 		}
-		public function setIdSalarie($idSalarie){
-			$this->idSalarie = $idSalarie;
+		public function setIdUtilisateur($idUtilisateur){
+			$this->idUtilisateur = $idUtilisateur;
 		}
 		/** Getter et Setter de l'attribut "nom" **/
-		public function getNom(){
-			return $this->nom;
+		public function getNomComplet(){
+			return $this->nomComplet;
 		}
-		public function setNom($nom){
-			$this->nom = $nom;
+		public function setNomComplet($nomComplet){
+			$this->nomComplet = $nomComplet;
 		}
-		/** Getter et Setter de l'attribut "prenom" **/
-		public function getPrenom(){
-			return $this->prenom;
-		}
-		public function setPrenom($prenom){
-			$this->prenom = $prenom;
-		}
+		
 		/** Getter et Setter de l'attribut "adresse" **/
 		public function getAdresse(){
 			return $this->adresse;
 		}
 		public function setAdresse($adresse){
 			$this->adresse = $adresse;
+		}
+
+		/** Getter et Setter de l'attribut "telephone" **/
+		public function getTel(){
+			return $this->tel;
+		}
+		public function setTel($tel){
+			$this->tel = $tel;
 		}
 		/** Getter et Setter de l'attribut "email" **/
 		public function getEmail(){
@@ -81,20 +77,7 @@
 		public function setEmail($email){
 			$this->email = $email;
 		}
-		/** Getter et Setter de l'attribut "telephone" **/
-		public function getTelephone(){
-			return $this->telephone;
-		}
-		public function setTelephone($telephone){
-			$this->telephone = $telephone;
-		}
-		/** Getter et Setter de l'attribut "idRolesalarie" **/
-		public function getIdRolesalarie(){
-			return $this->idRolesalarie;
-		}
-		public function setIdRolesalarie($idRolesalarie){
-			$this->idRolesalarie = $idRolesalarie;
-		}
+		
 		/** Getter et Setter de l'attribut "login" **/
 		public function getLogin(){
 			return $this->login;
@@ -103,28 +86,29 @@
 			$this->login = $login;
 		}
 		/** Getter et Setter de l'attribut "motDePasse" **/
-		public function getMotDePasse(){
-			return $this->motDePasse;
+		public function getMdp(){
+			return $this->mdp;
 		}
-		public function setMotDePasse($motDePasse){
-			$this->motDePasse = $motDePasse;
+		public function setMdp($mdp){
+			$this->mdp = $mdp;
 		}
-		/** Getter et Setter de l'attribut "idDepartement" **/
-		public function getIdDepartement(){
-			return $this->idDepartement;
+
+		/** Getter et Setter de l'attribut "statut" **/
+		public function getStatut(){
+			return $this->statut;
 		}
-		public function setIdDepartement($idDepartement){
-			$this->idDepartement = $idDepartement;
+		public function setStatut($statut){
+			$this->statut = $statut;
 		}
 
 		public function is_sha1($str) {
 		    return (bool) preg_match('/^[0-9a-f]{40}$/i', $str);
 		}
-		//Recherche d'un élément de la table Salarie**/
-		public function rechercheSalarie($id){
+		//Recherche d'un élément de la table Utilisateur**/
+		public function rechercheUtilisateur($id){
 			$list = array();
 
-			$requete = Connexion::Connect()->query("SELECT * FROM salarie WHERE idSalarie = \"$id\" ");
+			$requete = Connexion::Connect()->query("SELECT * FROM utilisateur WHERE idUtilisateur = \"$id\" ");
 
 			//On récupère le résultat de la requete, on le parcours, on le met dans une variable qu'on retourne 
 			foreach ($requete as $donnee){
@@ -370,7 +354,7 @@
 			*On exécute la requete
 	        */
 	        $mdp = sha1($mdp);
-	        $requete = Connexion::Connect()->query("SELECT motDePasse FROM vutilisateur WHERE login = \"$login\" AND motDePasse = \"$mdp\" ");
+	        $requete = Connexion::Connect()->query("SELECT mdp FROM utilisateur WHERE login = \"$login\" AND mdp = \"$mdp\" ");
 	        /*On parcours le résultat*/
 	        foreach ($requete as $donnee){
 	            $list[] = $donnee;
@@ -390,7 +374,7 @@
 			*On exécute la requete
 	        */
 	        $mdp = sha1($mdp);
-	        $requete = Connexion::Connect()->query("SELECT motDePasse FROM vutilisateur WHERE login = \"$login\" AND motDePasse = \"$mdp\" AND etat = 1 ");
+	        $requete = Connexion::Connect()->query("SELECT mdp FROM utilisateur WHERE login = \"$login\" AND mdp = \"$mdp\" ");
 	        /*On parcours le résultat*/
 	        foreach ($requete as $donnee){
 	            $list[] = $donnee;
@@ -407,7 +391,7 @@
 	    public function detailsUtilisateur($login, $mdp){
 			$list = array();
 
-			$requete = Connexion::Connect()->query("SELECT * FROM vutilisateur WHERE login = \"$login\" AND motDePasse = \"$mdp\" ");
+			$requete = Connexion::Connect()->query("SELECT * FROM utilisateur WHERE login = \"$login\" AND mdp = \"$mdp\" ");
 
 			foreach ($requete as $donnee){
 				$list[] = $donnee;

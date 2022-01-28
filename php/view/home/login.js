@@ -8,12 +8,12 @@ $(function () {
             data: $(this).serialize(),
             success: function (msg) {
                 if (parseInt(msg) == 1) {
-                    window.location.href = "compte_liste";
+                    window.location.href = "tapie_liste";
                 }
                 else if (parseInt(msg) == 2) {
                     //window.location.href = "activitecommercial_liste";
                     swal({ title: "Bravo !", text: "Vous êtes Connect&eacute; avec succ&egrave;s", imageUrl: 'images/icones/success.png', html: true });
-                    window.location.href = "routinejournalier_liste";
+                    window.location.href = "tapie_liste";
                 } else if (parseInt(msg) == -1) {
                     swal({ title: "Erreur", text: "Login ou mot de passe incorrect", imageUrl: 'images/icones/error.png', html: true });
                 } else if (parseInt(msg) == 40) {
