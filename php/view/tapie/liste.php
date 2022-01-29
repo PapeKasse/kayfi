@@ -42,7 +42,7 @@
                 foreach($list as $value){
                  
                   echo ' <tr id="'.$value['idTapie'].'">';
-                  echo'<td><img src="php/controller/photos/'.$value['photo'].'" alt="" style="width:100px;height:100px;" /></td>';
+                  echo'<td><img src="php/controller/photos/'.$value['photo'].'" alt="" style="width:150px;height:110px;" /></td>';
                        echo' <td>'.$value['nom'].'</td>';
                         echo'  <td>'.$value['prix'].'</td>';
                           echo'<td>'.$value['descript'].'</td>';

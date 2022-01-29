@@ -154,13 +154,15 @@
         }
         
         // Modification des valeurs
-        public function updateSortie($dateSortie, $numBs,$idSortie)
+        public function updateTapie($nom, $prix,$descript,$photo,$idTapie)
         {
-            $requete = Connexion::Connect()->prepare('UPDATE sortie SET dateSortie = ?, numBs = ? WHERE idSortie = ?
+            $requete = Connexion::Connect()->prepare('UPDATE tapie SET nom = ?, prix = ?,descript = ?, photo = ? WHERE idTapie = ?
 						');
-            $requete->bindValue(1, $dateSortie);
-            $requete->bindValue(2, $numBs);
-            $requete->bindValue(3, $idSortie); 
+            $requete->bindValue(1, $nom);
+            $requete->bindValue(2, $prix);
+            $requete->bindValue(3, $descript); 
+            $requete->bindValue(4, $photo); 
+            $requete->bindValue(5, $idTapie); 
             $res = $requete->execute();
             return($res);
         }

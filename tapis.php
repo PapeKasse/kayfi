@@ -209,7 +209,7 @@
                         <a href="" class="nav-item nav-link"><i class="fa fa-angle-right" aria-hidden="true"></i> Décos</a>
                         <a href="" class="nav-item nav-link"><i class="fa fa-angle-right" aria-hidden="true"></i> Accessoires</a>
                         <a href="" class="nav-item nav-link"><i class="fa fa-angle-right" aria-hidden="true"></i> Literies</a>
-                        <a href="tapis.php" class="nav-item nav-link"><i class="fa fa-angle-right" aria-hidden="true"></i> Tapies</a>
+                        <a href="tapis.php" class="nav-item nav-link"><i class="fa fa-angle-right" aria-hidden="true"></i> Tapis</a>
                         <a href="" class="nav-item nav-link"><i class="fa fa-angle-right" aria-hidden="true"></i> Gazons</a>
                     </div>
                 </nav>
@@ -375,58 +375,30 @@
         </div>
 </br>
 
-        <div style="background-color:#24ecec;height:60px;box-shadow: 5px 5px 5px 5px black;text-align:center;" class="container-fluid">
-               <div class="row">
-                    <div class="col">
-                        <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
-                    </div>
-                    <div class="col">
-                        <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
-                    </div>
-                    <div class="red1 col">
-                        <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
-                    </div>
-                    <div class="red2 col">
-                        <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
-                    </div>
-               </div>
-       </div>
-
-</br>
-
-        <div class="container-fluid cat_bg"> 
-        <p style="text-align:center;padding-top:20px;font-size:20px;font-weight:bold;color:#121010;">L'ELECTROMENAGERS C'EST INDISPENSABLE ! </p>
-            <div style="text-align:center;padding-top:27px;" class="row">
-                <div class="col-lg-6 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-                  <img style="width:90%;box-shadow:0 0 5px 5px white;" src="img/categories/cat17.jpg"  alt="Veillez-Patienter"> 
-                </div>
-                <div class="cat18_resp col-lg-6 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-                  <img style="width:90%;box-shadow:0 0 5px 5px #fff;" src="img/categories/cat18.jpg" alt="Veillez-Patienter"> 
-                </div>
-          </div>
-          <div style="text-align:center;margin-top:15px;">
-          <h5 style="text-align:center;font-size:20px;font-weight:bold;" class="btn border">TOUS NOS PRODUITS ! </h5>
-          </div>
-        </div>      
-</br>
-
-
+ 
 
   <!-- Products Start -->
   <div class="container-fluid">
         <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">Produits Electroménagers</span></h2>
+            <h2 class="section-title px-5"><span class="px-2">Tous les Tapis</span></h2>
         </div>
         <div class="row">
+               <?php
+                    require_once('php/classe/classeTapie.php');
+                    $Tapie= new Tapie();
+                    $list = $Tapie->listTapie();
+                    foreach($list as $value){
+                ?>
             <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
+                                  
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat1.jpg" alt="">
+                    <img class="card-img-top" src="php/controller/photos/<?php echo $value['photo']; ?>" style="height:210px" alt="Card image">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy"><?php echo $value['nom']; ?></h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: <?php echo $value['prix']; ?></h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
@@ -435,125 +407,9 @@
                     </div>
                 </div>
             </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat5.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
-                    </div>
-                </div>
-            </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat9.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
-                    </div>
-                </div>
-            </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat6.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
-                    </div>
-                </div>
-            </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat10.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
-                    </div>
-                </div>
-            </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat11.jpeg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
-                    </div>
-                </div>
-            </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat4.jpg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
-                    </div>
-                </div>
-            </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
-                <div class="card product-item border-0 mb-4">
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat12.jpeg" alt="">
-                    </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
-                        <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
-                        </div>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
-                    </div>
-                </div>
-            </div>
+         <?php
+             }
+          ?>
         </div>
     </div>
     <!-- Products End -->
@@ -567,25 +423,25 @@
                         <img style="border:3px solid #24ecec;" src="img/vendor-1.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-2.jpg" alt="">
+                        <img style="border:3px solid #24ecec;" src="img/vendor-2.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-3.jpg" alt="">
+                        <img style="border:3px solid #24ecec;" src="img/vendor-3.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-4.jpg" alt="">
+                        <img style="border:3px solid #24ecec;" src="img/vendor-4.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-5.jpg" alt="">
+                        <img style="border:3px solid #24ecec;" src="img/vendor-5.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-6.jpg" alt="">
+                        <img style="border:3px solid #24ecec;" src="img/vendor-6.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-7.jpg" alt="">
+                        <img style="border:3px solid #24ecec;" src="img/vendor-7.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-8.jpg" alt="">
+                        <img style="border:3px solid #24ecec;" src="img/vendor-8.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -594,13 +450,7 @@
     <!-- Vendor End -->
 
     <!-- FIN Produits -->
-  <!-- Debut Map -->
-    <div class="map" style="margin-bottom: -58px;">
-        <div class="map__iframe">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7147.040447027517!2d-17.450367579401473!3d14.677787182196669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1725bf87ff27d%3A0xbfea5d4fd420cfb3!2sMatelas%20Kayfii.com!5e0!3m2!1sfr!2ssn!4v1643417901636!5m2!1sfr!2ssn" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </div>
-    <!-- FIN Map -->
+
     <!-- Footer -->
     <div class="container-fluid bg-secondary text-dark mt-5 pt-5">
         <div class="row px-xl-5 pt-6">
@@ -672,6 +522,8 @@
         </div>
     </div>
     <!-- FIN Footer -->
+
+
     <!-- Back to Top -->
     <button
         type="button"

@@ -63,12 +63,39 @@
         //permet de modifier un numéro de bon de sortie et la date d'ajout dans le fichier view/sortie/modifier.php
         require_once('../classe/classeTapie.php');
         $Tapie = new Tapie();
-        if ($Tapie->numBsExist2(htmlspecialchars($_POST['numBs']), htmlspecialchars($_POST['modifier'])) == false) {
-            $Tapie = new Tapie();
-            echo $Tapie->updateTapie(htmlspecialchars($_POST['dateTapie']), htmlspecialchars($_POST['numBs']),htmlspecialchars($_POST['modifier']));
-        } else {
-            echo 2;
+        if(!empty($_POST['nom']) and !empty($_POST['prix']) 
+        and !empty($_POST['descript'])){
+
+            $tmpName = $_FILES['image']['tmp_name'];
+            $name = $_FILES['image']['name'];
+            $size = $_FILES['image']['size'];
+            $error = $_FILES['image']['error'];
+
+            $nom = htmlspecialchars(trim($_POST['nom']));
+            $prix = htmlspecialchars(trim($_POST['prix']));
+            $descript = htmlspecialchars(trim($_POST['descript']));
+            $idTapie = htmlspecialchars($_POST['modifier']);
+        
+          
+            $tabExtension = explode('.', $name);
+            $extension = strtolower(end($tabExtension));
+          
+            $extensions = ['jpg', 'png', 'jpeg', 'gif','svg'];
+            $maxSize = 400000;
+
+            if (in_array($extension, $extensions) && $size <= $maxSize && $error == 0) {
+                $uniqueName = uniqid('', true);
+                //uniqid génère quelque chose comme ca : 5f586bf96dcd38.73540086
+                $image = $uniqueName.".".$extension;
+                //$file = 5f586bf96dcd38.73540086.jpg
+                move_uploaded_file($tmpName, '../controller/photos/'.$image);
+                echo $Tapie->updateTapie($nom, $prix,$descript,$image,$idTapie);
+            }
         }
+            else {
+                echo 2;
+            }
+            
     } elseif (isset($_POST['modifier2'])) {
          /*permet de modifier un code article et sa quantité via le modal 
            dans le fichier view/sortie/modifier.php et dans view/sortie/ajouter.php*/

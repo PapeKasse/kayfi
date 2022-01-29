@@ -23,8 +23,6 @@ th {
 }
 </style>
 
-
-
 <!----------------- FIN CSS---------------->
 
   <div class="container" style="background-color: white; padding: 30px; margin-top: 10px;">
@@ -32,7 +30,7 @@ th {
         <div id="mail-app" class="section">
             <div class="row">
                 <div class="col s12 m12 l12">
-                       <h4 class="header2">Ajouter Tapie</h4>
+                       <h4 class="header2">Ajouter Tapis</h4>
                     
                   <div class="row">
                       <form id="monForm" method="Post" class=" col s12" enctype="multipart/form-data">
@@ -77,54 +75,3 @@ th {
              </div>
        </div>
     </div>
-
-  <!-- fin modal  -->
-
-  <!-- DEBUT Fonction Javscript pour supprimer un article via le modal et Rediréction avec l'idSortie vers affiche.php-->
-
-<script type="text/javascript"> 
-
-function mySupprression(idDetailssortie){
-  var idSortie = document.getElementById("idSortie").value;
-
-    swal({   title: "Suppression?",   
-        text: "Êtes-vous sûr de vouloir supprimer? Il sera impossible de récupérer l'élément après la suppression!",   
-        type: "warning",   
-        showCancelButton: true,   
-        confirmButtonColor: "#DD6B55",   
-        confirmButtonText: "Supprimer",   
-        cancelButtonText: "Annuler",   
-        closeOnConfirm: false,   
-        closeOnCancel: false }, 
-        function(isConfirm){   
-            if (isConfirm) {        
-              $.ajax({
-                  type: "GET",
-                  url: "php/controller/sortie.php?supprimer2="+idDetailssortie, //process to mail
-                  data: '',
-                  success: function(msg){
-                      if(parseInt(msg)==1){
-                          swal("Bravo!", "L'élément a été supprimé avec succès", "success");
-                          
-                          $(document).ready(function(){
-                              $('#affiche').load("php/view/sortie/affiche.php?send="+idSortie);
-                          });
-                      }
-                      else{ 
-                          swal("Une erreur est survenue lors de la connexion à la base de données");
-                      }
-                      // alert(msg); 
-                  },
-                  error: function(){
-                      swal("Une erreur est survenue veuillez contacter l'administrateur");
-                  }
-              });  
-            } 
-              else {
-                    swal("Annulé!", "L'élément a été conservé", "error");   
-              } 
-          }); 
-}
-</script>
-
-               <!----------------- FIN Fonction Javscript ---------------->
