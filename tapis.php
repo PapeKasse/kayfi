@@ -148,10 +148,10 @@
                 </div>
             </div>
             <div style="margin:auto;" class="col-lg-6 text-center text-lg-right align-items-center">
-                <a href="#" style="color:#25d366;"><i class="fab fa-whatsapp " style="font-size:30px;"></i></a>
-                <a href="#" style="color:#4267B2;"><i class="fab fa-facebook " style="font-size:30px;"></i></a>
-                <a href="#" style="color:#831AB4;"><i class="fab fa-instagram " style="font-size:30px;"></i></a>
-                <a href="#" style="color:#1DA1F2;"><i class="fab fa-twitter " style="font-size:30px;"></i></a>
+                <a href="#" style="color:#fff;"><i class="fab fa-whatsapp " style="font-size:30px;"></i></a>
+                <a href="#" style="color:#fff;"><i class="fab fa-facebook " style="font-size:30px;"></i></a>
+                <a href="#" style="color:#fff;"><i class="fab fa-instagram " style="font-size:30px;"></i></a>
+                <a href="#" style="color:#fff;"><i class="fab fa-twitter " style="font-size:30px;"></i></a>
             </div>
         </div>
         <div class="row align-items-center py-3 px-xl-5">
@@ -319,7 +319,7 @@
       </div>
 </div>
 
-        <div style="background-color:#24ecec;min-height:60px;text-align:center;margin-top:-20px;box-shadow: 5px 5px 5px 5px black;" class="container-fluid">
+        <div style="background-color:#1e90ff;min-height:60px;text-align:center;margin-top:-20px;box-shadow: 5px 5px 5px 5px orange;" class="container-fluid">
                 <div class="row">
                     <div class="col">
                         <h2 style="font-size:20px;font-weight:bold;background-color:orange;color:#fff;"class="btn border">Tous Nos Catégories</h2>
@@ -332,7 +332,7 @@
 
     <!-- Produits -->
 
-        <div style="box-shadow: 5px 5px 5px 5px black;" class="container-fluid">
+        <div style="box-shadow: 5px 5px 5px 5px orange;" class="container-fluid">
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
@@ -375,7 +375,23 @@
         </div>
 </br>
 
- 
+<div style="background-color:#1e90ff;height:60px;box-shadow: 5px 5px 5px 5px orange;text-align:center;" class="container-fluid">
+               <div class="row">
+                    <div class="col">
+                        <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
+                    </div>
+                    <div class="col">
+                        <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
+                    </div>
+                    <div class="red1 col">
+                        <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
+                    </div>
+                    <div class="red2 col">
+                        <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
+                    </div>
+               </div>
+       </div>
+</br>
 
   <!-- Products Start -->
   <div class="container-fluid">
@@ -389,22 +405,32 @@
                     $list = $Tapie->listTapie();
                     foreach($list as $value){
                 ?>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
-                <div class="card product-item border-0 mb-4">
-                                  
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                    <img class="card-img-top" src="php/controller/photos/<?php echo $value['photo']; ?>" style="height:210px" alt="Card image">
+            <div style="box-shadow:0 0 15px 15px white;margin-bottom:1px;" class="col-xs-2 col-sm-4 col-lg-3" >
+                <div style="padding:5px;margin-bottom:1px;" class="card product-item  mb-4">
+                               
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent  p-0">
+                       <img class="card-img-top" src="php/controller/photos/<?php echo $value['photo']; ?>" style="max-height:210px;" alt="Card image">
                     </div>
-                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy"><?php echo $value['nom']; ?></h6>
+                                <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    
+                       
+                        <h6 style="font-size:19px;text-align:center;font:weight:bold;font-family:fantasy;"><?php echo $value['nom']; ?></h6>
+                        <div class="d-flex"></br><h6 style="font-size:15px;font-weight:bold;" ><?php echo $value['descript']; ?></h6></div>
+                        <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" ><?php echo $value['prix']; ?>,00 FCFA</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: <?php echo $value['prix']; ?></h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
-                        </div>
+                        <h6><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                    <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+                    </br>
                 </div>
             </div>
          <?php
@@ -412,36 +438,45 @@
           ?>
         </div>
     </div>
+            </br>
     <!-- Products End -->
-
+            <div class="device1 container-fluid">
+               <img style="width:100%;" src="img/categories/cat28.gif" class="img-fluid" alt="...">
+            </div>
+            <div class="device2 container-fluid">
+               <img style="width:100%;" src="img/categories/cat29.gif" class="img-fluid" alt="...">
+            </div>
+            <div class="device3 container-fluid">
+               <img style="width:100%;max-height:320px;" src="img/categories/cat30.gif" class="img-fluid" alt="...">
+            </div>
    <!-- Vendor Start -->
    <div class="container-fluid py-5">
-        <div style="border:8px solid #24ecec;" class="row px-xl-5">
+        <div class="row px-xl-5">
             <div class="col">
                 <div class="owl-carousel vendor-carousel">
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-1.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-1.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-2.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-2.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-3.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-3.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-4.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-4.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-5.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-5.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-6.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-6.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-7.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-7.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-8.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-8.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -450,13 +485,19 @@
     <!-- Vendor End -->
 
     <!-- FIN Produits -->
-
+  <!-- Debut Map -->
+    <div class="map" style="margin-bottom: -58px;">
+        <div class="map__iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7147.040447027517!2d-17.450367579401473!3d14.677787182196669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1725bf87ff27d%3A0xbfea5d4fd420cfb3!2sMatelas%20Kayfii.com!5e0!3m2!1sfr!2ssn!4v1643417901636!5m2!1sfr!2ssn" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+    <!-- FIN Map -->
     <!-- Footer -->
     <div class="container-fluid bg-secondary text-dark mt-5 pt-5">
         <div class="row px-xl-5 pt-6">
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <a href="" class="text-decoration-none">
-                    <h1 class="mb-4 display-5 font-weight-semi-bold"><span style="color:#1e95d5;" class="font-weight-bold border border-white px-3 mr-1">KAYFI</span>SENEGAL</h1>
+                <h1 class="mb-4 display-5 font-weight-semi-bold"><span style="color:#fff;" class="font-weight-bold border border-white px-3 mr-1">KAYFII</span>SENEGAL</h1>
                 </a>
                 <p>CONTACTEZ-NOUS .</p>
                 <p class="mb-2"><i class="fa fa-map-marker  mr-3"></i>Rue 7 Angle 12, Médina, Dakar</p>
@@ -501,7 +542,7 @@
                                     required="required" />
                             </div>
                             <div>
-                                <button class="btn btn-primary btn-block border-0 py-3" type="submit">Envoyer</button>
+                                <button class="btn btn-light btn-block border-0 py-3" type="submit">Envoyer</button>
                             </div>
                         </form>
                     </div>
@@ -527,7 +568,7 @@
     <!-- Back to Top -->
     <button
         type="button"
-        class="btn btn-danger btn-floating btn-lg"
+        class="btn btn-primary btn-floating btn-lg"
         id="btn-back-to-top"
         >
   <i class="fas fa-arrow-up"></i>

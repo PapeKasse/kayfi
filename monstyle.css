@@ -54,7 +54,7 @@
 .cat_bg{
   background-color: #fff;
   height: 430px;
-  box-shadow: 5px 5px 5px 5px black;
+  box-shadow: 5px 5px 5px 5px orange;
 }
 
 @media only screen and (max-width: 768px) {
@@ -62,3 +62,57 @@
     display: none;
   }
 }
+
+
+/*   LES DEVICES*/
+
+@media screen and (min-width:501px)  and (max-width:10000px){
+    .device1{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:1201px)  and (max-width:10000px){
+    .device2{
+     display: none !important;
+    }
+}
+@media screen and (min-width:150px)  and (max-width:700px){
+    .device2 {
+        display: none !important;
+    }
+}
+@media screen and (min-width:150px)  and (max-width:700px){
+    .device3{
+        display: none !important;
+    }
+}
+@media screen and (min-width:701px)  and (max-width:1200px){
+    .device3{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:1201px)  and (max-width:10000px){
+    .device3 {
+        display: block !important;
+        margin-top: 10px !important;
+    }
+}
+
+@media screen and (min-width:501px)  and (max-width:1200px){
+    .device2{
+        display: block !important;
+        margin-top: 10px !important;
+    }
+}
+
+
+@media screen and (min-width:150px)  and (max-width:500px){
+    .device1{
+        display: block !important;
+        margin-top: 10px !important;
+    }
+}
+
+/*   FIN   DEVICES*/

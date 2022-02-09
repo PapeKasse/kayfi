@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>KAYFI</title>
+    <title>KAYFII</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -101,7 +101,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="our-link">
                         <ul>
-                            <li><a style="font-size: 15px;font-weight:600;" href="#"><i class="fa fa-envelope"> </i> Kayfi<i class="fas fa-at"></i>gmail.com</a></li>
+                            <li><a style="font-size: 15px;font-weight:600;" href="#"><i class="fa fa-envelope"> </i> Kayfii<i class="fas fa-at"></i>gmail.com</a></li>
                             <li class="log2"><a data-toggle="modal" data-target="#exampleModalCenter" style="cursor:pointer;"><i class="fa fa-user s_color"></i> Connexion</a></li>
                             <li class="log2"><a href="#"><i class="fa fa-compress" aria-hidden="true"> </i> Inscription</a></li>
                         </ul>
@@ -148,16 +148,16 @@
                 </div>
             </div>
             <div style="margin:auto;" class="col-lg-6 text-center text-lg-right align-items-center">
-                <a href="#" style="color:#25d366;"><i class="fab fa-whatsapp " style="font-size:30px;"></i></a>
-                <a href="#" style="color:#4267B2;"><i class="fab fa-facebook " style="font-size:30px;"></i></a>
-                <a href="#" style="color:#831AB4;"><i class="fab fa-instagram " style="font-size:30px;"></i></a>
-                <a href="#" style="color:#1DA1F2;"><i class="fab fa-twitter " style="font-size:30px;"></i></a>
+                <a href="#" style="color:#fff;"><i class="fab fa-whatsapp " style="font-size:30px;"></i></a>
+                <a href="#" style="color:#fff;"><i class="fab fa-facebook " style="font-size:30px;"></i></a>
+                <a href="#" style="color:#fff;"><i class="fab fa-instagram " style="font-size:30px;"></i></a>
+                <a href="#" style="color:#fff;"><i class="fab fa-twitter " style="font-size:30px;"></i></a>
             </div>
         </div>
         <div class="row align-items-center py-3 px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
                 <a href="" class="text-decoration-none">
-                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">KAYFI</span>SENEGAL</h1>
+                    <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">KAYFii</span>SENEGAL</h1>
                 </a>
             </div>
             <div class="col-lg-6 col-6 text-left">
@@ -217,14 +217,14 @@
             <div class="col-lg-9">
                 <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
                     <a href="" class="text-decoration-none d-block d-lg-none">
-                        <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">KAYFI</span>SENEGAL</h1>
+                        <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">KAYFII</span>SENEGAL</h1>
                     </a>
                     <button style="margin-top: -2px;" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="index.html" class="nav-item nav-link" style="color: #2ea8e2;"><i class="fa fa-home fa-x"></i> Home</a>
+                            <a href="index.html" class="nav-item nav-link" style="color: #1e90ff;"><i class="fa fa-home fa-x"></i> Home</a>
 
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-car fa-x"></i> Automobile</a>
@@ -319,7 +319,7 @@
       </div>
 </div>
 
-        <div style="background-color:#24ecec;min-height:60px;text-align:center;margin-top:-20px;box-shadow: 5px 5px 5px 5px black;" class="container-fluid">
+        <div style="background-color:#1e90ff;min-height:60px;text-align:center;margin-top:-20px;box-shadow: 5px 5px 5px 5px orange;" class="container-fluid">
                 <div class="row">
                     <div class="col">
                         <h2 style="font-size:20px;font-weight:bold;background-color:orange;color:#fff;"class="btn border">Tous Nos Catégories</h2>
@@ -332,7 +332,7 @@
 
     <!-- Produits -->
 
-        <div style="box-shadow: 5px 5px 5px 5px black;" class="container-fluid">
+        <div style="box-shadow: 5px 5px 5px 5px orange;" class="container-fluid">
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
@@ -375,7 +375,7 @@
         </div>
 </br>
 
-        <div style="background-color:#24ecec;height:60px;box-shadow: 5px 5px 5px 5px black;text-align:center;" class="container-fluid">
+        <div style="background-color:#1e90ff;height:60px;box-shadow: 5px 5px 5px 5px orange;text-align:center;" class="container-fluid">
                <div class="row">
                     <div class="col">
                         <h2 style="font-size:15px;font-weight:bold;margin-top:15px;background-color:orange;color:#fff;"class="btn border">-20%</h2>
@@ -393,21 +393,18 @@
        </div>
 
 </br>
-
-        <div class="container-fluid cat_bg"> 
-        <p style="text-align:center;padding-top:20px;font-size:20px;font-weight:bold;color:#121010;">L'ELECTROMENAGERS C'EST INDISPENSABLE ! </p>
-            <div style="text-align:center;padding-top:27px;" class="row">
-                <div class="col-lg-6 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-                  <img style="width:90%;box-shadow:0 0 5px 5px white;" src="img/categories/cat17.jpg"  alt="Veillez-Patienter"> 
-                </div>
-                <div class="cat18_resp col-lg-6 col-md-6 offset-md-0 offset-sm-1 col-sm-10 offset-sm-1 my-lg-0 my-2">
-                  <img style="width:90%;box-shadow:0 0 5px 5px #fff;" src="img/categories/cat18.jpg" alt="Veillez-Patienter"> 
-                </div>
-          </div>
-          <div style="text-align:center;margin-top:15px;">
-          <h5 style="text-align:center;font-size:20px;font-weight:bold;" class="btn border">TOUS NOS PRODUITS ! </h5>
-          </div>
-        </div>      
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Changer Votre Pare-Brise En Un Click !</span></h2>
+        </div>
+         <div class="device1 container-fluid">
+               <img style="width:100%;" src="img/categories/cat31.gif" class="img-fluid" alt="...">
+            </div>
+            <div class="device2 container-fluid">
+               <img style="width:100%;" src="img/categories/cat32.gif" class="img-fluid" alt="...">
+            </div>
+            <div class="device3 container-fluid">
+               <img style="width:100%;max-height:320px;" src="img/categories/cat33.gif" class="img-fluid" alt="...">
+            </div>     
 </br>
 
 
@@ -415,177 +412,664 @@
   <!-- Products Start -->
   <div class="container-fluid">
         <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">Produits Electroménagers</span></h2>
+            <h2 class="section-title px-5"><span class="px-2">Produits Automobiles</span></h2>
         </div>
         <div class="row">
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat1.jpg" alt="">
                     </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+</br>
                 </div>
             </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat5.jpg" alt="">
                     </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+</br>
                 </div>
             </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat9.jpg" alt="">
                     </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+</br>
                 </div>
             </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat6.jpg" alt="">
                     </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+</br>
                 </div>
             </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat10.jpg" alt="">
                     </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+</br>
                 </div>
             </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat11.jpeg" alt="">
                     </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+</br>
                 </div>
             </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat4.jpg" alt="">
                     </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+</br>
                 </div>
             </div>
-            <div style="border:8px solid #24ecec;" class="col-xs-6 col-sm-3" >
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
                 <div class="card product-item border-0 mb-4">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
                         <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat12.jpeg" alt="">
                     </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
                         <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
                         <div class="d-flex justify-content-center">
-                            <h6 style="font-size:15px;font-weight:bold;font-family:fantasy;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del>PRIX: 120.000 FCFA</del></h6>
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
                         </div>
                     </div>
-                    <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>DETAILS</a>
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>PANIER</a>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
                     </div>
+</br>
                 </div>
             </div>
         </div>
     </div>
+</br>
+       <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Décorer Votre Maison En Un Click !</span></h2>
+        </div>
+        <div class="device1 container-fluid">
+               <img style="width:100%;" src="img/categories/cat28.gif" class="img-fluid" alt="...">
+            </div>
+            <div class="device2 container-fluid">
+               <img style="width:100%;" src="img/categories/cat29.gif" class="img-fluid" alt="...">
+            </div>
+            <div class="device3 container-fluid">
+               <img style="width:100%;max-height:320px;" src="img/categories/cat30.gif" class="img-fluid" alt="...">
+            </div>    
+</br>
     <!-- Products End -->
+<!-- Products Start -->
+  <div class="container-fluid">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Produits Maison</span></h2>
+        </div>
+        <div class="row">
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat1.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat5.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat9.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat6.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat10.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat11.jpeg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat4.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat12.jpeg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- FIN Produits -->
+    </br>
+       <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">L'Electromenager C'est Indispensable!</span></h2>
+        </div>
+        <div class="device1 container-fluid">
+               <img style="width:100%;" src="img/categories/cat34.gif" class="img-fluid" alt="...">
+            </div>
+            <div class="device2 container-fluid">
+               <img style="width:100%;" src="img/categories/cat35.gif" class="img-fluid" alt="...">
+            </div>
+            <div class="device3 container-fluid">
+               <img style="width:100%;max-height:320px;" src="img/categories/cat36.gif" class="img-fluid" alt="...">
+            </div>     
+</br>
 
+<!-- Products Start -->
+  <div class="container-fluid">
+        <div class="text-center mb-4">
+            <h2 class="section-title px-5"><span class="px-2">Produits Electromenagers</span></h2>
+        </div>
+        <div class="row">
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat1.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat5.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat9.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat6.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat10.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat11.jpeg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat4.jpg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+            <div style="box-shadow:0 0 15px 15px white;" class="col-xs-6 col-sm-3" >
+                <div class="card product-item border-0 mb-4">
+                    <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                        <img style="height:210px;" class="img-fluid w-100" src="img/categories/cat12.jpeg" alt="">
+                    </div>
+                    <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                    <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                        <h6 class="text-truncate mb-3" style="font-size:19px;font:weight:bold;font-family:fantasy">Machine à Laver</h6>
+                        <div class="d-flex justify-content-center">
+                            <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" >PRIX: 120.000 FCFA</h6><h6 style="font-weight:600;" class="text-muted ml-2"><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                        </div>
+                    </div>
+                      <div class="card-footer d-flex justify-content-between bg-light">
+                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
+                    </div>
+</br>
+                </div>
+            </div>
+        </div>
+    </div>
+</br>
+     <!-- FIN Produits -->
    <!-- Vendor Start -->
    <div class="container-fluid py-5">
-        <div style="border:8px solid #24ecec;" class="row px-xl-5">
+        <div class="row px-xl-5">
             <div class="col">
                 <div class="owl-carousel vendor-carousel">
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;" src="img/vendor-1.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;" src="img/vendor-1.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-2.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;"src="img/vendor-2.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-3.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;"src="img/vendor-3.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-4.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;"src="img/vendor-4.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-5.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;"src="img/vendor-5.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-6.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;"src="img/vendor-6.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-7.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;"src="img/vendor-7.jpg" alt="">
                     </div>
                     <div class="vendor-item border p-4">
-                        <img style="border:3px solid #24ecec;"src="img/vendor-8.jpg" alt="">
+                        <img style="border:3px solid #1e90ff;"src="img/vendor-8.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -606,7 +1090,7 @@
         <div class="row px-xl-5 pt-6">
             <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
                 <a href="" class="text-decoration-none">
-                    <h1 class="mb-4 display-5 font-weight-semi-bold"><span style="color:#1e95d5;" class="font-weight-bold border border-white px-3 mr-1">KAYFI</span>SENEGAL</h1>
+                    <h1 class="mb-4 display-5 font-weight-semi-bold"><span style="color:#fff;" class="font-weight-bold border border-white px-3 mr-1">KAYFII</span>SENEGAL</h1>
                 </a>
                 <p>CONTACTEZ-NOUS .</p>
                 <p class="mb-2"><i class="fa fa-map-marker  mr-3"></i>Rue 7 Angle 12, Médina, Dakar</p>
@@ -651,7 +1135,7 @@
                                     required="required" />
                             </div>
                             <div>
-                                <button class="btn btn-primary btn-block border-0 py-3" type="submit">Envoyer</button>
+                                <button class="btn btn-light btn-block border-0 py-3" type="submit">Envoyer</button>
                             </div>
                         </form>
                     </div>
@@ -675,7 +1159,7 @@
     <!-- Back to Top -->
     <button
         type="button"
-        class="btn btn-danger btn-floating btn-lg"
+        class="btn btn-primary btn-floating btn-lg"
         id="btn-back-to-top"
         >
   <i class="fas fa-arrow-up"></i>

@@ -15,7 +15,7 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <title>Kayfi</title>
+    <title>Kayfii</title>
     <!-- Favicons-->
     <link rel="icon" href="images/logo/kayfi.png" sizes="32x32">
     <!-- Favicons-->
@@ -226,12 +226,6 @@
                         <a href="gazon_liste">
                           <i class="material-icons">play_arrow</i>
                           <span>Gazons</span>
-                        </a>
-                      </li>
-                      <li class="<?php if(stristr($tableau_chemin[0], "ransement") !== false) echo "active" ?>">
-                        <a href="batteries_liste">
-                          <i class="material-icons">play_arrow</i>
-                          <span>Batteries</span>
                         </a>
                       </li>
                     </ul>
