@@ -198,8 +198,8 @@
                   </a>
                   <div class="collapsible-body">
                     <ul class="collapsible" data-collapsible="accordion">
-                      <li class="<?php if(stristr($tableau_chemin[0], "decos") !== false) echo "active" ?>">
-                        <a href="decos_liste">
+                      <li class="<?php if(stristr($tableau_chemin[0], "deco") !== false) echo "active" ?>">
+                        <a href="deco_liste">
                           <i class="material-icons">play_arrow</i>
                           <span>D&eacute;cos</span>
                         </a>
@@ -210,8 +210,8 @@
                           <span>Sardins</span>
                         </a>
                       </li>
-                      <li class="<?php if(stristr($tableau_chemin[0], "litterie") !== false) echo "active" ?>">
-                        <a href="litteries_liste">
+                      <li class="<?php if(stristr($tableau_chemin[0], "literie") !== false) echo "active" ?>">
+                        <a href="literie_liste">
                           <i class="material-icons">play_arrow</i>
                           <span>Litteries</span>
                         </a>
@@ -284,6 +284,27 @@
             $tab["menu"]["tapie"]["ajouter"] = 1;
             $tab["menu"]["tapie"]["modifier"] = 1;
             $tab["menu"]["tapie"]["supprimer"] = 1;
+
+            $tab["menu"]["gazon"]["liste"] = 1;
+            $tab["menu"]["gazon"]["ajouter"] = 1;
+            $tab["menu"]["gazon"]["modifier"] = 1;
+            $tab["menu"]["gazon"]["supprimer"] = 1;
+
+            $tab["menu"]["deco"]["liste"] = 1;
+            $tab["menu"]["deco"]["ajouter"] = 1;
+            $tab["menu"]["deco"]["modifier"] = 1;
+            $tab["menu"]["deco"]["supprimer"] = 1;
+
+            $tab["menu"]["literie"]["liste"] = 1;
+            $tab["menu"]["literie"]["ajouter"] = 1;
+            $tab["menu"]["literie"]["modifier"] = 1;
+            $tab["menu"]["literie"]["supprimer"] = 1;
+
+            $tab["menu"]["sardin"]["liste"] = 1;
+            $tab["menu"]["sardin"]["ajouter"] = 1;
+            $tab["menu"]["sardin"]["modifier"] = 1;
+            $tab["menu"]["sardin"]["supprimer"] = 1;
+
 
             $URL = $_SERVER['REQUEST_URI'];
 

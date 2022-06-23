@@ -1,20 +1,32 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>KAYFI</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
 
     <!-- Favicon -->
     <link href="monstyle.css" rel="stylesheet">
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="preconnect" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -181,9 +193,16 @@
                     <i class="fas fa-heart text-primary"></i>
                     <span class="badge">0</span>
                 </a>
-                <a href="" class="btn border">
-                    <i class="fas fa-shopping-cart text-primary"></i>
-                    <span class="badge">0</span>
+               <a href="panier" class="btn border">
+                    <i class="fas fa-shopping-cart text-primary"></i><span class="badge cart_item">
+                    <?php
+                    if(isset($_SESSION['panier'])){
+                         echo $count = count($_SESSION['panier']);
+                    }else {
+                        echo '0';
+                    }
+                    ?>
+                    </span>
                 </a>
             </div>
          
@@ -222,12 +241,12 @@
                     <button style="margin-top: -2px;" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="index.html" class="nav-item nav-link" style="color: #2ea8e2;"><i class="fa fa-home fa-x"></i> Home</a>
+                            <a href="index.php" class="nav-item nav-link" style="color: #1e90ff;"><i class="fa fa-home fa-x"></i> Home</a>
 
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-car fa-x"></i> Automobile</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i style="color:#1e90ff;" class="fa fa-car fa-x"></i> Automobile</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="cart.html" class="dropdown-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Pare-Brise</a>
                                     <a href="checkout.html" class="dropdown-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Batteries</a>
@@ -237,7 +256,7 @@
                             </div>
 
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-h-square fa-x"></i> Maison</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i style="color:#1e90ff;" class="fa fa-h-square fa-x"></i> Maison</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="cart.html" class="dropdown-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Décos</a>
                                     <a href="checkout.html" class="dropdown-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Sardins</a>
@@ -248,12 +267,12 @@
                                 </div>
                             </div>
 
-                            <li><a href="shop.html" class="nav-item nav-link"><i class="fa fa-tasks" aria-hidden="true"></i> Electromenagers</a></li>
-                           <li><a href="contact.html" class="nav-item nav-link"><i class="fa fa-compress fa-x"> </i> Contact</a></li>
+                            <li><a href="shop.html" class="nav-item nav-link"><i style="color:#1e90ff;" class="fa fa-tasks" aria-hidden="true"></i> Electromenagers</a></li>
+                           <li><a href="contact.html" class="nav-item nav-link"><i style="color:#1e90ff;" class="fa fa-compress fa-x"> </i> Contact</a></li>
                             
                             <div class="log">
-                            <li><a data-toggle="modal" data-target="#exampleModalCenter" style="cursor:pointer;"><i class="fa fa-user s_color"> </i> Connexion</a></li>
-                            <li><a href="#"><i class="fa fa-compress" aria-hidden="true"> </i> Inscription</a></li>
+                            <li><a data-toggle="modal" data-target="#exampleModalCenter" style="cursor:pointer;"><i style="color:#1e90ff;" class="fa fa-user s_color"> </i> Connexion</a></li>
+                            <li><a href="#"><i style="color:#1e90ff;" class="fa fa-compress" aria-hidden="true"> </i> Inscription</a></li>
                             </div>
                         </div>
                         <div class="navbar-nav ml-auto py-0">
@@ -394,51 +413,53 @@
 </br>
 
   <!-- Products Start -->
-  <div class="container-fluid">
-        <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">Tous les Tapis</span></h2>
-        </div>
-        <div class="row">
-               <?php
+
+<div class="container-fluid bg-trasparent my-4 p-3" > 
+         <div class="row"> 
+             <?php
                     require_once('php/classe/classeTapie.php');
                     $Tapie= new Tapie();
-                    $list = $Tapie->listTapie();
+                    $list = $Tapie->listTapie2();
                     foreach($list as $value){
-                ?>
-            <div style="box-shadow:0 0 15px 15px white;margin-bottom:1px;" class="col-xs-2 col-sm-4 col-lg-3" >
-                <div style="padding:5px;margin-bottom:1px;" class="card product-item  mb-4">
-                               
-                    <div class="card-header product-img position-relative overflow-hidden bg-transparent  p-0">
-                       <img class="card-img-top" src="php/controller/photos/<?php echo $value['photo']; ?>" style="max-height:210px;" alt="Card image">
-                    </div>
-                                <div style="margin-top:8px;background-color:orange;max-height:40px;" class="d-flex justify-content-center">
-                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
-                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
-                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
-                                    <span style="color:#3c99dc;" class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                </div>
-                    
                        
-                        <h6 style="font-size:19px;text-align:center;font:weight:bold;font-family:fantasy;"><?php echo $value['nom']; ?></h6>
-                        <div class="d-flex"></br><h6 style="font-size:15px;font-weight:bold;" ><?php echo $value['descript']; ?></h6></div>
-                        <h6 style="font-size:21px;font-weight:bold;color:#1e90ff;" ><?php echo $value['prix']; ?>,00 FCFA</h6>
-                        <div class="d-flex justify-content-center">
-                        <h6><del style="color:orange;font-size:15px;" >PRIX: 120.000 FCFA</del></h6>
+                ?>
+             <div style="padding:5px;margin-bottom:1px;" class="card shadow-sm col-xs-2 col-sm-4 col-lg-3 mb-4">
+                 <div class="card-header product-img position-relative overflow-hidden bg-transparent  p-0"> 
+                 <img src="php/controller/photos/<?php echo $value['photo']; ?>" class="card-img-top" style="max-height:210px;" alt="..."> 
+                    </div>
+                 <div class="label-top shadow-sm"><?php echo $value['nom']; ?></div>
+                     <div class="card-body">
+                        <div class="clearfix mb-3">
+                           <span class="float-left badge rounded-pill bg-primary" style="background-color:blue;"><?php echo $value['prix']; ?>,00 FCFA</span>
+                              <span class="float-right badge rounded-pill bg-primary" style="background-color:blue;"><del style="color:white;">
+                              <?php echo $value['prixBarre'];?>;00 FCFA</del></span>
+                        </div> 
+                                    <h5 class="card-title"><?php echo $value['descript']; ?>
+                                    </h5>
+                                    <div class="d-grid gap-2 my-4">
+                                        <input type="hidden" name="photo" id="photo<?php echo $value['idProduit'];?>" value = "<?php echo $value['photo'];?>">
+                    <input type="hidden" name="nom" id="nom<?php echo $value['idProduit'];?>" value = "<?php echo $value['nom'];?>">
+                    <input type="hidden" name="descript" id="descript<?php echo $value['idProduit'];?>" value="<?php echo $value['descript'];?>">
+                    <input type="hidden" name="prix" id="prix<?php echo $value['idProduit'];?>" value = "<?php echo $value['prix'];?>">
+                    <input type="hidden" name="idProduit" id="idProduit" value="<?php echo $value['idProduit'];?>"> 
+                                        <input class="form-control input-lg" style="background-color:#fff;border:1px solid orange;" type="number" name="quantite" id="quantite<?php echo $value['idProduit'];?>" value = "1" min='1' max='10'>
+                                        <input type="hidden" name="envoyer">
+                                        <button  style="width:100%;" class="btns btn btn-warning btn-lg envoyer"type="submit" name="envoyer" 
+                                          id="<?php echo $value['idProduit'];?>">
+                                          Au Panier </button>
+                                    </div>   
+                                </div> 
+                                
+                        </div>  
+                        <?php
+                          }
+                          ?>
+                      </div> 
+                </div> 
+         </div>  
+    </div> 
 
-                    </div>
-                    <div class="card-footer d-flex justify-content-between bg-light">
-                      <button style="background-color:#1e90ff;" class="btn btn-primary btn-block addItemBtn"><i class="fas fa-cart-plus"></i> Aouter Au Panier</button>
-                    </div>
-                    </br>
-                </div>
-            </div>
-         <?php
-             }
-          ?>
-        </div>
-    </div>
-            </br>
+                      </br>
     <!-- Products End -->
             <div class="device1 container-fluid">
                <img style="width:100%;" src="img/categories/cat28.gif" class="img-fluid" alt="...">
@@ -612,6 +633,12 @@
     <script src="js_organie/mixitup.min.js"></script>
     <script src="js_organie/owl.carousel.min.js"></script>
     <script src="js_organie/main.js"></script>
+
+
+
+    <script type="text/javascript" src="php/view/produit/produit.js"></script>
+<script type="text/javascript" src="php/view/produit/table.js"></script>
+
 
 </body>
 </html>

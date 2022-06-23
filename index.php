@@ -1,16 +1,19 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>KAYFII</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
 
     <!-- Favicon -->
     <link href="monstyle.css" rel="stylesheet">
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon">   
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -181,9 +184,16 @@
                     <i class="fas fa-heart text-primary"></i>
                     <span class="badge">0</span>
                 </a>
-                <a href="" class="btn border">
-                    <i class="fas fa-shopping-cart text-primary"></i>
-                    <span class="badge">0</span>
+                <a href="panier" class="btn border">
+                    <i class="fas fa-shopping-cart text-primary"></i><span class="badge cart_item">
+                    <?php
+                    if(isset($_SESSION['panier'])){
+                          echo $count = count($_SESSION['panier']);
+                    }else {
+                        echo '0';
+                    }
+                    ?>
+                    </span>
                 </a>
             </div>
          
@@ -224,10 +234,10 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="index.html" class="nav-item nav-link" style="color: #1e90ff;"><i class="fa fa-home fa-x"></i> Home</a>
+                            <a href="index" class="nav-item nav-link" style="color: #1e90ff;"><i class="fa fa-home fa-x"></i> Home</a>
 
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-car fa-x"></i> Automobile</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i style="color:#1e90ff;" class="fa fa-car fa-x"></i> Automobile</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="cart.html" class="dropdown-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Pare-Brise</a>
                                     <a href="checkout.html" class="dropdown-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Batteries</a>
@@ -237,7 +247,7 @@
                             </div>
 
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-h-square fa-x"></i> Maison</a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i style="color:#1e90ff;" class="fa fa-h-square fa-x"></i> Maison</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="cart.html" class="dropdown-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Décos</a>
                                     <a href="checkout.html" class="dropdown-item"><i class="fa fa-angle-right" aria-hidden="true"></i> Sardins</a>
@@ -248,12 +258,12 @@
                                 </div>
                             </div>
 
-                            <li><a href="shop.html" class="nav-item nav-link"><i class="fa fa-tasks" aria-hidden="true"></i> Electromenagers</a></li>
-                           <li><a href="contact.html" class="nav-item nav-link"><i class="fa fa-compress fa-x"> </i> Contact</a></li>
+                            <li><a href="shop.html" class="nav-item nav-link"><i style="color:#1e90ff;" class="fa fa-tasks" aria-hidden="true"></i> Electromenagers</a></li>
+                           <li><a href="contact.html" class="nav-item nav-link"><i style="color:#1e90ff;" class="fa fa-compress fa-x"> </i> Contact</a></li>
                             
                             <div class="log">
-                            <li><a data-toggle="modal" data-target="#exampleModalCenter" style="cursor:pointer;"><i class="fa fa-user s_color"> </i> Connexion</a></li>
-                            <li><a href="#"><i class="fa fa-compress" aria-hidden="true"> </i> Inscription</a></li>
+                            <li><a data-toggle="modal" data-target="#exampleModalCenter" style="cursor:pointer;"><i style="color:#1e90ff;" class="fa fa-user s_color"> </i> Connexion</a></li>
+                            <li><a href="#"><i style="color:#1e90ff;" class="fa fa-compress" aria-hidden="true"> </i> Inscription</a></li>
                             </div>
                         </div>
                         <div class="navbar-nav ml-auto py-0">
@@ -269,7 +279,7 @@
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
                                     <h3 class="display-4 text-white font-weight-semi-bold mb-4">Changer Votre Pare-Brise</h3>
-                                    <a href="" class="btn btn-light py-2 px-3">Commander Maintenant</a>
+                                    <a href="" class="btn btn-light py-2 px-3">Prendre Rendez-Vous</a>
                                 </div>
                             </div>
                         </div>
@@ -277,8 +287,8 @@
                             <img class="img-fluid" src="img/img1.jpeg" alt="Image">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
-                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Avec Dakar Pare-Brise !!</h3>
-                                    <a href="" class="btn btn-light py-2 px-3">Commander Maintenant</a>
+                                    <h3 class="display-4 text-white font-weight-semi-bold mb-4">Avec Dakar Pare-Brise !</h3>
+                                    <a href="" class="btn btn-light py-2 px-3">Prendre Rendez-Vous</a>
                                 </div>
                             </div>
                         </div>

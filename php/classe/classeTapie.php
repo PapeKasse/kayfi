@@ -9,6 +9,7 @@
         private $idTapie;
         private $nom;
         private $prix;
+        private $prixBarre;
         private $descript;       
         private $photo;       
         private $dateTapie;       
@@ -26,6 +27,7 @@
                 $this->idTapie= "";
                 $this->nom= "";
                 $this->prix= "";
+                $this->prixBarre= "";
                 $this->descript= "";
                 $this->photo= "";
                 $this->dateTapie= "";
@@ -37,9 +39,10 @@
                 $this->idTapie= func_get_arg(0);
                 $this->nom= func_get_arg(1);
                 $this->prix= func_get_arg(2);
-                $this->descript= func_get_arg(3);
-                $this->photo= func_get_arg(4);
-                $this->dateTapie= func_get_arg(5);
+                $this->prixBarre= func_get_arg(3);
+                $this->descript= func_get_arg(4);
+                $this->photo= func_get_arg(5);
+                $this->dateTapie= func_get_arg(6);
             }
         }
         
@@ -71,6 +74,16 @@
         public function setPrix($prix)
         {
             $this->prix = $prix;
+        }
+
+        /** Getter et Setter de l'attribut "prix Barre" **/
+        public function getPrixBarre()
+        {
+            return $this->prixBarre;
+        }
+        public function setPrixBarre($prixBarre)
+        {
+            $this->prixBarre = $prixBarre;
         }
         
         /** Getter et Setter de l'attribut "descript" **/
@@ -130,39 +143,41 @@
         
         // Insertion des valeurs
         /** Fonctions CRUD **/
-        public function addTapie($nom,$prix,$descript,$photo)
+        public function addTapie($nom,$prix,$prixBarre,$descript,$photo,$idCategorie)
         {
             $db=Connexion::Connect();
-            $requete = $db->prepare('INSERT INTO tapie(nom, prix, descript, photo)  VALUES (?,?,?,?)');
-            $res = $requete->execute([$nom,$prix,$descript,$photo]);
+            $requete = $db->prepare('INSERT INTO produit(nom, prix,prixBarre, descript, photo,idCategorie)  VALUES (?,?,?,?,?,?)');
+            $res = $requete->execute([$nom,$prix,$prixBarre,$descript,$photo,$idCategorie]);
             return($res);
         }
 
         public function addtapies()
         {
             $db=Connexion::Connect();
-            $requete = $db->prepare('INSERT INTO tapie(idTapie, nom, prix, descript,photo, dateTapie)  
-						VALUES (?, ?, ?, ?, ?, ?)');
+            $requete = $db->prepare('INSERT INTO tapie(idTapie, nom, prix, prixBarre,descript,photo, dateTapie)  
+						VALUES (?, ?, ?, ?, ?, ?,?)');
             $requete->bindValue(1, $this->getIdTapie());
             $requete->bindValue(2, $this->getNom());
             $requete->bindValue(3, $this->getPrix());
-            $requete->bindValue(4, $this->getDescript());
-            $requete->bindValue(5, $this->getPhoto());
-            $requete->bindValue(6, $this->getDateTapie());
+            $requete->bindValue(4, $this->getPrixBarre());
+            $requete->bindValue(5, $this->getDescript());
+            $requete->bindValue(6, $this->getPhoto());
+            $requete->bindValue(7, $this->getDateTapie());
             $res = $requete->execute();
             return($res);
         }
         
         // Modification des valeurs
-        public function updateTapie($nom, $prix,$descript,$photo,$idTapie)
+        public function updateTapie($nom, $prix,$prixBarre,$descript,$photo,$idTapie)
         {
-            $requete = Connexion::Connect()->prepare('UPDATE tapie SET nom = ?, prix = ?,descript = ?, photo = ? WHERE idTapie = ?
+            $requete = Connexion::Connect()->prepare('UPDATE tapie SET nom = ?, prix = ?,prixBarre = ?,descript = ?, photo = ? WHERE idTapie = ?
 						');
             $requete->bindValue(1, $nom);
             $requete->bindValue(2, $prix);
-            $requete->bindValue(3, $descript); 
-            $requete->bindValue(4, $photo); 
-            $requete->bindValue(5, $idTapie); 
+            $requete->bindValue(3, $prixBarre);
+            $requete->bindValue(4, $descript); 
+            $requete->bindValue(5, $photo); 
+            $requete->bindValue(6, $idTapie); 
             $res = $requete->execute();
             return($res);
         }
@@ -198,7 +213,7 @@
             return $list;
         }
 
-        	// 	Liste des stocks 
+        	// 	Liste des tapies 
 		public function listTapie(){
 			$list = array();
 			$requete = Connexion::Connect()->query('SELECT * FROM tapie');
@@ -208,6 +223,29 @@
 			}
 			return $list;
 		}
+
+        public function listTapie2(){
+			$list = array();
+			$requete = Connexion::Connect()->query("SELECT * FROM produit, categorie WHERE 
+            nomCategorie='tapis'
+            AND categorie.idCategorie=produit.idCategorie");
+			//On récupère le résultat de la requete, on le parcours, on le met dans une variable qu'on retourne 
+			foreach ($requete as $donnee) {
+				$list[] = $donnee;
+			}
+			return $list;
+		}
+
+        public function listProduit(){
+			$list = array();
+			$requete = Connexion::Connect()->query("SELECT * FROM produit, categorie WHERE categorie.idCategorie=produit.idCategorie");
+			//On récupère le résultat de la requete, on le parcours, on le met dans une variable qu'on retourne 
+			foreach ($requete as $donnee) {
+				$list[] = $donnee;
+			}
+			return $list;
+		}
+
 
         // Liste des detailsSorties
         public function listDetailsSortie($idSortie)

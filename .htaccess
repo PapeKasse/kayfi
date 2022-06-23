@@ -1,1 +1,24 @@
+RewriteEngine On
+RewriteRule ^panier?$ ./panier.php
+RewriteRule ^index?$ ./index.php
+RewriteRule ^tapis?$ ./tapis.php
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+#Cela force l’adresse de votre site à être de type www.exemple.com, utile pour le référencement :
+
+RewriteCond %{HTTP_HOST} ^kayfi.com$
+RewriteRule ^(.*) http://www.kayfi.com/$1 [QSA,L,R=301]
+
+
+php_flag session.use_trans_sid off
+php_flag session.use_only_cookies on
+
+#Supprimer le PHPSESSID des URL chez OVH
+SetEnv SESSION_USE_TRANS_SID 0
+
+RewriteRule ^kayfi/.*\.(php|html)$ - [F,L,NC]
 ErrorDocument 404 /kayfi/accueil.php
